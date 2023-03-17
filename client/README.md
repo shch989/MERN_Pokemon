@@ -9,4 +9,22 @@ $ npx create-react-app <project_name>
 $ npm install --save styled-components
 ```
 
-## React
+## Redux Toolkit
+```
+$ npm install --save @reduxjs/toolkit react-redux
+```
+
+## React Router Dom
+```
+$ npm install --save react-router-dom
+```
+
+## React Toastify
+```
+$ npm install --save react-toastify
+```
+
+## React Icons
+```
+$ npm install --save react-icons
+```
