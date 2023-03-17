@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# React 설명
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Typescript 설치
 
-## Available Scripts
+### 상위 폴더에서 환경 세팅
 
-In the project directory, you can run:
+```
+$ npm install --save typescript
+$ npm install --save @types/node
+$ npm install --save @types/react
+$ npm install --save @types/react-dom
+$ npm install --save @types/jest
+```
 
-### `npm start`
+### React 폴더 생성
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+$ npx create-react-app <project_name> --template typescript
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## React Icons
 
-### `npm test`
+```
+$ npm install react-icons
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Firebase 설치(Node백엔드 교체 예정)
 
-### `npm run build`
+```
+$ npm install firebase
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sass 설치(style-components 교체 예정)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+$ npm install sass
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## React toastify 설치
 
-### `npm run eject`
+```
+$ npm install react-toastify
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## React router dom 설치
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ npm install react-router-dom
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Axios 설치
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+$ npm install axios
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Redux toolkit 설치
+```
+$ npm install react-redux
+$ npm install @reduxjs/toolkit
+```
