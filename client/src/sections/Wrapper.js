@@ -9,8 +9,12 @@ const Content = styled.div`
   height: 80vh;
 `
 
-function Wrapper() {
-  return <Content>Wrapper</Content>
+function Wrapper(props) {
+  return (
+    <Content>
+      {props.children}
+    </Content>
+  )
 }
 
 export default Wrapper
